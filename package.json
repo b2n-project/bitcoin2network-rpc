@@ -1,0 +1,31 @@
+{
+  "name": "bitcoin2network-rpc",
+  "version": "3.1.0",
+  "description": "bitcoin2network RPC API Interface in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b2n-project/bitcoin2network-rpc.git"
+  },
+  "keywords": [
+    "bitcoin2network",
+    "RPC",
+    "API"
+  ],
+  "author": "CodingRonin <CodingRonin@bitcoin2.network>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/b2n-project/bitcoin2network-rpc/issues"
+  },
+  "homepage": "https://github.com/b2n-project/bitcoin2network-rpc#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
